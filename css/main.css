@@ -1,0 +1,298 @@
+.moon-body {
+  background-image: url(../images/moon-body.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.moon-header {
+  width: 100%;
+  margin-top: 40px;
+  padding: 24px 0 24px 55px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.moon-nav {
+  width: 830px;
+  position: relative;
+  padding: 0px 165px 0px 123px;
+  -webkit-backdrop-filter: blur(81.55px);
+          backdrop-filter: blur(81.55px);
+  background: rgba(255, 255, 255, 0.04);
+}
+.moon-nav::before {
+  content: "";
+  position: absolute;
+  width: 473px;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.25);
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+  left: -449px;
+}
+
+.moon-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+
+.moon-link {
+  padding: 38px 0;
+  color: #fff;
+  border: 2px solid transparent;
+  font-family: "Barlow";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 2.7px;
+  display: flex;
+  gap: 11px;
+}
+.moon-link > span {
+  font-weight: 700;
+}
+.moon-link:hover {
+  border-bottom: 2px solid white;
+}
+
+.lounch-header {
+  padding: 40px 0 76px 55px;
+}
+
+.lounch-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.lounch__logo-link {
+  display: inline-block;
+}
+
+.navbar__list {
+  display: flex;
+  align-items: center;
+  gap: 38px;
+}
+
+.navbar {
+  position: relative;
+  width: 830px;
+  display: flex;
+  justify-content: center;
+  -webkit-backdrop-filter: blur(81.55px);
+          backdrop-filter: blur(81.55px);
+  background: rgba(255, 255, 255, 0.04);
+}
+.navbar::before {
+  content: "";
+  position: absolute;
+  width: 473px;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.25);
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+  left: -449px;
+}
+
+.navbar__link {
+  display: inline-block;
+  padding: 35px 0;
+  color: rgb(255, 255, 255);
+  font-family: Barlow;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 2.7px;
+  border-bottom: 2px solid transparent;
+  transition: all 0.3s;
+}
+.navbar__link:hover {
+  border-color: white;
+}
+
+.navbar__bold {
+  display: inline-block;
+  margin-right: 11px;
+  color: rgb(255, 255, 255);
+  font-family: Barlow;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 2.7px;
+}
+
+.space-page {
+  width: 100%;
+  background-image: url(../images/space-bg.png);
+  background-size: 100% 100vh;
+  height: 100vh;
+  background-position: top right;
+}
+
+.space {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.space__wrapper-left {
+  width: 450px;
+}
+
+.space__wrapper-title {
+  margin-bottom: 15px;
+  color: rgb(208, 214, 249);
+  font-family: Barlow Condensed;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 34px;
+  letter-spacing: 4.72px;
+}
+
+.space__wrapper-name {
+  margin-bottom: 15px;
+  color: rgb(255, 255, 255);
+  font-family: Bellefair;
+  font-size: 150px;
+  font-weight: 400;
+  line-height: 172px;
+  letter-spacing: 0px;
+}
+
+.space__wrapper-text {
+  color: rgb(208, 214, 249);
+  font-family: Barlow;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0px;
+}
+
+.space__wrapper-right {
+  width: 274px;
+  height: 274px;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.space__right-title {
+  color: rgb(11, 13, 23);
+  font-family: Bellefair;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 37px;
+  letter-spacing: 2px;
+}
+
+.lounch-body {
+  background-image: url("../images/launch-bg.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: top left;
+}
+
+.lounch-header {
+  padding: 40px 0 76px 55px;
+}
+
+.lounch-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.lounch__logo-link {
+  display: inline-block;
+}
+
+.navbar__list {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+}
+
+.navbar {
+  position: relative;
+  width: 830px;
+  display: flex;
+  justify-content: center;
+  -webkit-backdrop-filter: blur(81.55px);
+          backdrop-filter: blur(81.55px);
+  background: rgba(255, 255, 255, 0.04);
+}
+.navbar::before {
+  content: "";
+  position: absolute;
+  width: 473px;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.25);
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+  left: -449px;
+}
+
+.navbar__link {
+  display: inline-block;
+  padding: 35px 0;
+  color: rgb(255, 255, 255);
+  font-family: "Barlow";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 2.7px;
+  border-bottom: 2px solid transparent;
+  transition: all 0.3s;
+}
+.navbar__link:hover {
+  border-color: white;
+}
+
+.navbar__bold {
+  display: inline-block;
+  margin-right: 11px;
+  color: rgb(255, 255, 255);
+  font-family: "Barlow";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 2.7px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+.container {
+  width: 1150px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+@font-face {
+  font-family: "Bellefair";
+  src: url("../fonts/Bellefair-Regular.woff2") format("woff2"), url("../fonts/Bellefair-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Barlow";
+  src: url("../fonts/Barlow-Regular.woff2") format("woff2"), url("../fonts/Barlow-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}/*# sourceMappingURL=main.css.map */
